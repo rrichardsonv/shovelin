@@ -1,0 +1,26 @@
+{
+  "name": "Shovelin",
+  "version": "1.2",
+  "manifest_version": 2,
+  "description": "Visit shared bookmarks randomly",
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": true
+  },
+  "options_page": "src/options/index.html",
+  "browser_action": {
+    "default_icon": "icons/icon.png",
+    "default_title": "Shovelin",
+    "default_popup": "src/browser_action/popup.html"
+  },
+  "permissions": [
+    "bookmarks",
+    "tabs",
+    "storage",
+    "https://ajax.googleapis.com/",
+    "https://shovelin.herokuapp.com/*"
+  ]
+}

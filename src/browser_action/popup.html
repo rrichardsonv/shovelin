@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="../../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+  <script type='text/javascript' src='../../js/setup.js'></script>
+  <script type="text/javascript" src="../../js/popup.js"></script>
+  <title>Shovelin</title>
+
+  <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../../css/main.css">
+</head>
+<body>
+<span id="status"></span>
+
+<div class="container hidden" id="mainPopup">
+
+  <div id="dig-row" class="row">
+    <div id="more-wrapper" class="col-sm-2"></div>
+    <div id="dig-wrapper" class="col-sm-3">
+      <button id="dig-button" class="main-button">
+        
+      </button>
+
+    </div>
+    <div class="col-sm-7">
+      Dig!<br>
+      <div class="checkbox-wrapper">
+        <input id="local-only" type="checkbox">
+        <label for="local-only">Only dig local</label>
+      </div>
+    </div>
+  </div>
+
+  <div id="ship-row" class="row">
+    <div id="ship-wrapper" class="col-sm-5">
+      <button class="main-button" id="ship-button">
+        
+      </button>
+    </div>
+    <div class="col-sm-7">
+      Share!<br>
+      <div class="checkbox-wrapper">
+        <input id="current-page" type="checkbox">
+        <label for="current-page">Include this page</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

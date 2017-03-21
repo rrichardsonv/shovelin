@@ -1,0 +1,48 @@
+body{
+  background-color: burlywood;
+}
+label{
+  font-size: 0.5em;
+}
+
+.hidden{
+  display:none;
+}
+.span-label{
+  font-size: 0.75em;
+}
+.form-text-input{
+  border-radius: 0.1em;
+}
+div[class^="col"] {
+  background-color: white;
+}
+
+.container{
+  min-width: 7.5em;
+  margin-top: 1em;
+}
+.main-button{
+  height: 45px;
+  width: 45px;
+  border-radius: 0.75em;
+}
+.center-button{
+  margin: 0 auto;
+  display: block;
+}
+
+#dig-button{
+  background: url("../icons/shovel_40_40.png");
+  background-repeat: no-repeat;
+}
+
+#ship-button{
+  background: url("../icons/wheelbarrow_40_25.png");
+  background-repeat: no-repeat;
+}
+
+.checkbox-wrapper{
+  background-color: burlywood;
+  border-radius: 0.25em
+}
